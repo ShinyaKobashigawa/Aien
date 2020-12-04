@@ -1,0 +1,109 @@
+.b_title {
+  border-bottom: 1px double;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.b_list {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 0px;
+}
+
+.b_list img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.form input {
+  width: 300px;
+  margin-bottom: 30px;
+  border: 1px solid;
+  font-size: 18px;
+}
+
+.form textarea {
+  height: 100px;
+  width: 300px;
+  margin-bottom: 10px;
+  border: 1px solid;
+  font-size: 18px;
+}
+
+.contact-submit input {
+  width: 150px;
+}
+
+.contact {
+  margin: 10px;
+  border-bottom: 1px double;
+}
+
+.contents {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.contents p {
+  text-align: center;
+}
+
+.footer_top {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+
+.footer_bottom {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+
+.footer .footer_top .page_top {
+  width: 50%;
+  font-size: xx-large;
+  text-align: center;
+}
+
+.footer .footer_top .page_top a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer .footer_top .booking {
+  width: 50%;
+  text-align: center;
+  align-self: center;
+}
+
+.footer .footer_top .booking_title {
+  font-size: xx-large;
+}
+
+.footer .footer_bottom .reserves {
+  width: 33%;
+  font-size: x-large;
+  text-align: center;
+  align-self: center;
+}
+
+.footer .footer_bottom .sns {
+  width: 33%;
+  font-size: xxx-large;
+  text-align: center;
+  align-self: center;
+}
+
+.footer .footer_bottom .info {
+  width: 33%;
+  text-align: center;
+  align-self: center;
+  font-size: xx-large;
+}
+
+.footer .footer_bottom .info a {
+  color: black;
+}

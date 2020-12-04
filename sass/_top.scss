@@ -1,0 +1,84 @@
+.wrap-video{
+    position:relative;
+    background-color: black;
+  }
+  
+.wrap-video video{
+  width: 100%;
+  height:100%
+}
+
+.wrap-video .text{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); /*上下左右中央寄せ*/
+  text-align:center;
+}
+
+nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.menu_bar {
+  background-color: black;
+}
+
+.wrap-video .text p{
+  font-size:30px;
+  font-weight:bold;
+  color:white;
+  padding: 30px ;
+  letter-spacing: 10px;
+  font-family: cursive;
+}
+
+.menu_bar ul{
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu_bar ul li {
+  cursor: pointer;
+  padding: 30px;
+}
+
+.menu_bar ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.menu_bar ul li a:hover {
+  opacity: 0.5;
+  background-color: gray;
+}
+
+.menu_bar ul li:hover {
+  background-color: gray;
+}
+
+.manth {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  display: wrap;
+}
+
+.sentence {
+  letter-spacing: 2px;
+  padding: 20px;
+}
+
+.title {
+  padding: 40px 0 20px 0;
+  border-bottom: 1px solid;
+}
+
+// header途中から固定
+.menu_bar .m_fixed {
+  position: fixed;
+  top: 0;
+}
