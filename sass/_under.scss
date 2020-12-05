@@ -38,14 +38,7 @@
 }
 
 .contents{
-    display: flex;
-    justify-content:center;
     text-align: center;
-    // .google{
-    //     .map{
-    //         margin-bottom: 15px;
-    //     }
-    // }
     p{
         text-align: center;
     }
@@ -60,7 +53,7 @@
     justify-content: center;
     height: 100px;
 }
-.footer{
+.footer_main{
     .footer_top{
         .page_top{
         width: 50%;

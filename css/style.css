@@ -127,8 +127,6 @@ nav {
 }
 
 .contents {
-  display: flex;
-  justify-content: center;
   text-align: center;
 }
 
@@ -148,49 +146,49 @@ nav {
   height: 100px;
 }
 
-.footer .footer_top .page_top {
+.footer_main .footer_top .page_top {
   width: 50%;
   font-size: xx-large;
   text-align: center;
 }
 
-.footer .footer_top .page_top a {
+.footer_main .footer_top .page_top a {
   text-decoration: none;
   color: black;
 }
 
-.footer .footer_top .booking {
+.footer_main .footer_top .booking {
   width: 50%;
   text-align: center;
   align-self: center;
 }
 
-.footer .footer_top .booking_title {
+.footer_main .footer_top .booking_title {
   font-size: xx-large;
 }
 
-.footer .footer_bottom .reserves {
+.footer_main .footer_bottom .reserves {
   width: 33%;
   font-size: x-large;
   text-align: center;
   align-self: center;
 }
 
-.footer .footer_bottom .sns {
+.footer_main .footer_bottom .sns {
   width: 33%;
   font-size: xxx-large;
   text-align: center;
   align-self: center;
 }
 
-.footer .footer_bottom .info {
+.footer_main .footer_bottom .info {
   width: 33%;
   text-align: center;
   align-self: center;
   font-size: xx-large;
 }
 
-.footer .footer_bottom .info a {
+.footer_main .footer_bottom .info a {
   color: black;
 }
 
