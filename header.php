@@ -3,17 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" >
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/reset.css">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css">
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <!-- fontawesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
   <title>AIEN</title>
 </head>
 
 <!-- top -->
 
+<body>
+<script src=“https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js”></script>
+<script src=“https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js”></script>
+<script src=“https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js”></script>
+<script src='<?php echo get_template_directory_uri(); ?>/js/scroll.js'></script>
+  
 <div class="wrap-video">
   
   <div class="text">

@@ -1,4 +1,4 @@
-jQuery(function() {
+$(function() {
 var navPos = jQuery( '.menu_bar' ).offset().top; // グローバルメニューの位置
 var navHeight = jQuery( '.menu_bar' ).outerHeight(); // グローバルメニューの高さ
 jQuery( window ).on( 'scroll', function() {
