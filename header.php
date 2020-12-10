@@ -57,6 +57,7 @@
       <!-- while (繰り返しの条件。条件が満たされたら繰り返す) -->
       <!-- have_post()投稿された記事が存在する間 -->
       <!-- the_post();記事を一つ取り出してつい変えるようにする -->
+      <?php query_posts("cat=7&showposts=1"); ?>
         <?php while (have_posts()): the_post(); ?>
           <li id="post-<?php the_ID(); ?>" class="news">
             <p>
@@ -101,6 +102,7 @@
       <!-- while (繰り返しの条件。条件が満たされたら繰り返す) -->
       <!-- have_post()投稿された記事が存在する間 -->
       <!-- the_post();記事を一つ取り出してつい変えるようにする -->
+      <?php query_posts("cat=6&showposts=1"); ?>
         <?php while (have_posts()): the_post(); ?>
           <li id="post-<?php the_ID(); ?>" class="news">
             <p>
@@ -137,6 +139,7 @@
       <!-- while (繰り返しの条件。条件が満たされたら繰り返す) -->
       <!-- have_post()投稿された記事が存在する間 -->
       <!-- the_post();記事を一つ取り出してつい変えるようにする -->
+      <?php query_posts("cat=5&showposts=1"); ?>
         <?php while (have_posts()): the_post(); ?>
           <li id="post-<?php the_ID(); ?>" class="news">
             <p>
